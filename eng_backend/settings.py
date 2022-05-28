@@ -96,7 +96,8 @@ ROOT_URLCONF = 'eng_backend.urls'
 CORS_ORIGIN_ALLOW_ALL = True
 
 AUTH_USER_MODEL = 'authapp.myuser'
-CELERY_BROKER_URL = 'amqp://localhost'
+CELERY_BROKER_URL = 'amqps://gwewsfku:1Ek9hM3tes4wOaXJQ0D-YNbndmjGX2WO@sparrow.rmq.cloudamqp.com/gwewsfku'
+CELERY_BROKER_Ports = ['5672']
 CELERY_TIMEZONE = "Australia/Tasmania"
 CELERY_TASK_TRACK_STARTED = True
 
